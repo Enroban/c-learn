@@ -7,27 +7,16 @@
 //
 
 #include <stdio.h>
-#include "hong.h"
-#include "meiju.h"
+#include "zifuchuan.h"
 
 int main(int argc, const char * argv[]) {
 //     insert code here...
-//    printf("Hello, World!\n");
+//    printf("你好 Hello, World!\n");
     
-//    hong();
-    
-    meiju();
-//
-//
-//    char b[16]="Hello, World!\n";
-//    printf("%s",b);
-//
-//    int  var1;
-//    char var2[10];
-//
-//    printf("var1 变量的地址： %p\n", &var1);
-//    printf("var2 变量的地址： %p\n", &var2);
+    const char str[] = "这里全是中文";
+    printf("\n输出字符数:%d\n", printf(str));
+    puts(str);
 
-
+    zifuchuan();
 }
 

@@ -11,6 +11,8 @@
 		B55DCFD4224378CF00DDDDCE /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = B55DCFD3224378CF00DDDDCE /* main.c */; };
 		B55DCFDC2243797900DDDDCE /* pointerfunction.c in Sources */ = {isa = PBXBuildFile; fileRef = B55DCFDB2243797900DDDDCE /* pointerfunction.c */; };
 		B55DCFDF224379F800DDDDCE /* hong.c in Sources */ = {isa = PBXBuildFile; fileRef = B55DCFDE224379F800DDDDCE /* hong.c */; };
+		B567C5C5229038FB004FF7C4 /* zifuchuan.c in Sources */ = {isa = PBXBuildFile; fileRef = B567C5C4229038FB004FF7C4 /* zifuchuan.c */; };
+		B567C5C82290442E004FF7C4 /* zhizhen.c in Sources */ = {isa = PBXBuildFile; fileRef = B567C5C72290442E004FF7C4 /* zhizhen.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,6 +37,10 @@
 		B55DCFDD224379F800DDDDCE /* hong.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hong.h; sourceTree = "<group>"; };
 		B55DCFDE224379F800DDDDCE /* hong.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = hong.c; sourceTree = "<group>"; };
 		B567C5C2229034E7004FF7C4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B567C5C3229038FB004FF7C4 /* zifuchuan.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = zifuchuan.h; sourceTree = "<group>"; };
+		B567C5C4229038FB004FF7C4 /* zifuchuan.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zifuchuan.c; sourceTree = "<group>"; };
+		B567C5C62290442E004FF7C4 /* zhizhen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = zhizhen.h; sourceTree = "<group>"; };
+		B567C5C72290442E004FF7C4 /* zhizhen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zhizhen.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +81,10 @@
 				B55DCFDE224379F800DDDDCE /* hong.c */,
 				B55465A3228E9BAE006F6511 /* meiju.h */,
 				B55465A4228E9BAE006F6511 /* meiju.c */,
+				B567C5C3229038FB004FF7C4 /* zifuchuan.h */,
+				B567C5C4229038FB004FF7C4 /* zifuchuan.c */,
+				B567C5C62290442E004FF7C4 /* zhizhen.h */,
+				B567C5C72290442E004FF7C4 /* zhizhen.c */,
 			);
 			path = Learn;
 			sourceTree = "<group>";
@@ -138,7 +148,9 @@
 			files = (
 				B55DCFD4224378CF00DDDDCE /* main.c in Sources */,
 				B55DCFDF224379F800DDDDCE /* hong.c in Sources */,
+				B567C5C5229038FB004FF7C4 /* zifuchuan.c in Sources */,
 				B55465A5228E9BAE006F6511 /* meiju.c in Sources */,
+				B567C5C82290442E004FF7C4 /* zhizhen.c in Sources */,
 				B55DCFDC2243797900DDDDCE /* pointerfunction.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
