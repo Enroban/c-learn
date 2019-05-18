@@ -9,9 +9,15 @@
 #include "zifuchuan.h"
 
 void zifuchuan(){
-//    char greeting[] = "你好";
+    char greeting[] = "你好";
     
-    char greeting[] = {"你", "说"};
+//    char greeting[] = {"你", "说"};
     
     printf("Greeting message: %s\n", greeting );
+    
+    
+    /*输出中文*/
+    const char str[] = "这里全是中文";
+    printf("\n输出字符数:%d\n", printf(str));
+    puts(str);
 }
