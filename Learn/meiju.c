@@ -8,11 +8,6 @@
 #include <stdio.h>
 #include "meiju.h"
 
-enum DAY
-{
-    MON=1, TUE, WED, THU, FRI, SAT, SUN
-};
-
 int meju(){
     
     enum DAY day;
