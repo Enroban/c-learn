@@ -7,9 +7,28 @@
 //
 
 #include <stdio.h>
+#include "hong.h"
+#include "meiju.h"
+
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World!\n");
-    return 0;
+//     insert code here...
+//    printf("Hello, World!\n");
+    
+//    hong();
+    
+    meiju();
+    
+    
+    char b[16]="Hello, World!\n";
+    printf("%s",b);
+    
+    int  var1;
+    char var2[10];
+    
+    printf("var1 变量的地址： %p\n", &var1);
+    printf("var2 变量的地址： %p\n", &var2);
+
+
 }
+

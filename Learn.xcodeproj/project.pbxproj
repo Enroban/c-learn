@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B55465A5228E9BAE006F6511 /* meiju.c in Sources */ = {isa = PBXBuildFile; fileRef = B55465A4228E9BAE006F6511 /* meiju.c */; };
 		B55DCFD4224378CF00DDDDCE /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = B55DCFD3224378CF00DDDDCE /* main.c */; };
+		B55DCFDC2243797900DDDDCE /* pointerfunction.c in Sources */ = {isa = PBXBuildFile; fileRef = B55DCFDB2243797900DDDDCE /* pointerfunction.c */; };
+		B55DCFDF224379F800DDDDCE /* hong.c in Sources */ = {isa = PBXBuildFile; fileRef = B55DCFDE224379F800DDDDCE /* hong.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +26,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B55465A3228E9BAE006F6511 /* meiju.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = meiju.h; sourceTree = "<group>"; };
+		B55465A4228E9BAE006F6511 /* meiju.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = meiju.c; sourceTree = "<group>"; };
 		B55DCFD0224378CF00DDDDCE /* Learn */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Learn; sourceTree = BUILT_PRODUCTS_DIR; };
 		B55DCFD3224378CF00DDDDCE /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		B55DCFDA2243797900DDDDCE /* pointerfunction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pointerfunction.h; sourceTree = "<group>"; };
+		B55DCFDB2243797900DDDDCE /* pointerfunction.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = pointerfunction.c; sourceTree = "<group>"; };
+		B55DCFDD224379F800DDDDCE /* hong.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hong.h; sourceTree = "<group>"; };
+		B55DCFDE224379F800DDDDCE /* hong.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = hong.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,12 @@
 			isa = PBXGroup;
 			children = (
 				B55DCFD3224378CF00DDDDCE /* main.c */,
+				B55DCFDA2243797900DDDDCE /* pointerfunction.h */,
+				B55DCFDB2243797900DDDDCE /* pointerfunction.c */,
+				B55DCFDD224379F800DDDDCE /* hong.h */,
+				B55DCFDE224379F800DDDDCE /* hong.c */,
+				B55465A3228E9BAE006F6511 /* meiju.h */,
+				B55465A4228E9BAE006F6511 /* meiju.c */,
 			);
 			path = Learn;
 			sourceTree = "<group>";
@@ -102,6 +117,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = B55DCFC7224378CF00DDDDCE;
 			productRefGroup = B55DCFD1224378CF00DDDDCE /* Products */;
@@ -119,6 +135,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B55DCFD4224378CF00DDDDCE /* main.c in Sources */,
+				B55DCFDF224379F800DDDDCE /* hong.c in Sources */,
+				B55465A5228E9BAE006F6511 /* meiju.c in Sources */,
+				B55DCFDC2243797900DDDDCE /* pointerfunction.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
